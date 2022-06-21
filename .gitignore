@@ -51,3 +51,4 @@ external-chaincode/
 .classpath
 .settings
 *.pem
+*ca
