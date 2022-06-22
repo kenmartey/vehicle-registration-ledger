@@ -22,7 +22,9 @@ The ability to search for vehicles by:
 •	Plate  
 
 ## State Machine Diagram
-
+  
+![StateDiagram](https://user-images.githubusercontent.com/99918492/175080590-e87c34fa-a544-43ce-a5d2-80396ca2c1d2.png)
+  
 
 # Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
 Vehicle application on Hyperledger Fabric
