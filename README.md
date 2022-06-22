@@ -1,11 +1,14 @@
 # Project Description
 
-ServiceOntario is responsible for vehicle registration throughout the province. A secure blockchain-based solution is needed to ensure the immutable recording of vehicle registrations and ownership details. Any solution must also be decentralized and token less for effective operation and cost management. 
+ServiceOntario is responsible for vehicle registration throughout the province. A secure blockchain-based solution is needed to ensure the immutable recording of vehicle registrations and ownership details. Any solution must also be decentralized and token less for effective operation and cost management.   
+  
 Hyperledger Fabric is a highly flexible, enterprise-grade private, permissioned blockchain that offers a fast transaction throughput of 5,000-30,000 transactions per second. Developed by the Linux Foundation, it allows organizations to build and run industry-specific blockchain applications for their businesses. Participating organizations participate as Peers. Smart contracts are called Chaincode. These are agreed upon and shared with each organization handling its own onboarding. 
+  
 In this project, the test network consists of two example organizations ServiceOntario and a dealership. Many other organizations would be part of this deployment in the real world. For example, insurance companies would interact with ServiceOntario using a channel that is a private subnet created between participating organizations. 
 
 ## Requirements
 A Hyperledger Fabric-based dApp vehicle registry that tracks a vehicle’s lifecycle.  
+  
 A State record for each vehicle that includes the following:   
 •	Vehicle VIN   
 •	License plate history   
