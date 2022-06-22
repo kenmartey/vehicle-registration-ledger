@@ -47,12 +47,12 @@ State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal
 ### Chaincode Folder (link)  
 ### Server code (link)  
 ### Front end code Folder (link)  
-
   
-## Vehicle Registration LifeCycle on Hyperledger Fabric
+  
+# Vehicle Registration LifeCycle on Hyperledger Fabric
 _(*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)_  
   
-## Vehicle application on Hyperledger Fabric  
+## Vehicle application on Hyperledger Fabric - Hyperledger Fabric, API Users, Node Setup & Initialization  
 
 ### Start the Hyperledger Fabric Network 
 
