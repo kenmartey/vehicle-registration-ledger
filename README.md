@@ -26,16 +26,31 @@ The ability to search for vehicles by:
 ![StateDiagram](https://user-images.githubusercontent.com/99918492/175080590-e87c34fa-a544-43ce-a5d2-80396ca2c1d2.png)
   
 
-# Transistion Descriptions
-  TO-DO  
+# Transition Descriptions  
+  The following transition actions change the state of the state machine. These include:    
+  - Buying a vehicle   
+  - Registering a vehicle  
+  - Selling a vehicle  
+  - Destroying a vehicle (accident, loss & theft)  
+  - Expiry of a registered vehicle  
     
-# State Data Descriptions
-  TO-DO  
+# State Data Descriptions  
+The transition changes has the following effect on the state. There are 4 states:  
+- No vehicle  
+_This state has no data, it is also the return state for destroyed vehicles_  
+- Unregistered/no plate  
+_The state change occurs when a person purchases a vehicle. It is also the return state for when a plate expires_  
+- Registered/plated  
+_This state occurs when either a vehicle is registered or when a vehicle has been purchased and the previously unregistered plate is assigned to it._     
+- Plate without a vehicle  
+_This state is when a plated vehicle is sold to a 3rd party such as a dealer. At this point the vehicle is unregistered._     
+
   
 # Role Descriptions
 Lead Programmer: K. Anyinatoe  
-Documentation Lead: N. Harley  
-State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal 
+Documentation: N. Harley  
+State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal   
+_Group collaboration occured in each area._  
 
 # Application Screenshot
   
