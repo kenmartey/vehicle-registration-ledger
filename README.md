@@ -35,9 +35,10 @@ The ability to search for vehicles by:
 ## Role Descriptions
 Lead Programmer: K. Anyinatoe  
 Documentation Lead: N. Harley  
-State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal  
+State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal 
 
-# Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
+## Project Implimentation:  
+### Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
 Vehicle application on Hyperledger Fabric
 
 
