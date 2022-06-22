@@ -14,11 +14,14 @@ A State record for each vehicle that includes the following:
 •	License plate history   
 •	Owner history   
 •	Repair history   
-•	Accident history   
+•	Accident history
+  
 The ability to search for vehicles by:   
 •	VIN  
 •	Owner   
 •	Plate  
+
+## State Machine Diagram
 
 
 # Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
