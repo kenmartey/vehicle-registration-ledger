@@ -6,7 +6,7 @@ Hyperledger Fabric is a highly flexible, enterprise-grade private, permissioned 
   
 In this project, the test network consists of two example organizations ServiceOntario and a dealership. Many other organizations would be part of this deployment in the real world. For example, insurance companies would interact with ServiceOntario using a channel that is a private subnet created between participating organizations. 
 
-## Requirements
+# Requirements
 A Hyperledger Fabric-based dApp vehicle registry that tracks a vehicle’s lifecycle.  
   
 A State record for each vehicle that includes the following:   
@@ -21,28 +21,40 @@ The ability to search for vehicles by:
 •	Owner   
 •	Plate  
 
-## State Machine Diagram
+# State Machine Diagram
   
 ![StateDiagram](https://user-images.githubusercontent.com/99918492/175080590-e87c34fa-a544-43ce-a5d2-80396ca2c1d2.png)
   
 
-## Transistion Descriptions
+# Transistion Descriptions
   TO-DO  
     
-## State Data Descriptions
+# State Data Descriptions
   TO-DO  
   
-## Role Descriptions
+# Role Descriptions
 Lead Programmer: K. Anyinatoe  
 Documentation Lead: N. Harley  
 State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal 
 
-## Project Implimentation:  
-### Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
-Vehicle application on Hyperledger Fabric
+# Application Screenshot
+  
+  Insert Image Here  
+  
+  
+# Project Implimentation: 
+  
+### Chaincode Folder (link)  
+### Server code (link)  
+### Front end code Folder (link)  
 
+  
+## Vehicle Registration LifeCycle on Hyperledger Fabric
+_(*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)_  
+  
+## Vehicle application on Hyperledger Fabric  
 
-## Start the Hyperledger Fabric Network 
+### Start the Hyperledger Fabric Network 
 
 1. cd vehicle-lc
 2. ./start.sh (with this you will start docker-compose.yml up -d )
@@ -51,8 +63,7 @@ Vehicle application on Hyperledger Fabric
 
 1. cd vehicle-lc
 2. ./setup.sh (With this you will create the channel genesis block, add the peer0 to the channel created and instantiate tfbc chaincode.) 
-
-*** In this usecase CA's are already generated. 
+_*** In this usecase CA's are already generated._ 
 
 We **do not have to run** the following again:
 
