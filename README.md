@@ -26,6 +26,17 @@ The ability to search for vehicles by:
 ![StateDiagram](https://user-images.githubusercontent.com/99918492/175080590-e87c34fa-a544-43ce-a5d2-80396ca2c1d2.png)
   
 
+## Transistion Descriptions
+  TO-DO  
+    
+## State Data Descriptions
+  TO-DO  
+  
+## Role Descriptions
+Lead Programmer: K. Anyinatoe  
+Documentation Lead: N. Harley  
+State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal  
+
 # Vehicle Registration LifeCycle on Hyperledger Fabric (*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)
 Vehicle application on Hyperledger Fabric
 
