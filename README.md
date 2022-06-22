@@ -41,13 +41,7 @@ State Diagram & Assistance: K. Ashra & A. AjitpalSingh Bal
   
   Insert Image Here  
   
-  
-# Project Implimentation: 
-  
-### Chaincode Folder (link)  
-### Server code (link)  
-### Front end code Folder (link)  
-  
+ 
   
 # Vehicle Registration LifeCycle on Hyperledger Fabric
 _(*** Only CarDealership,RegisterCar,GetCarHistory,GetCarDetails and ScrapCar implemented ***)_  
