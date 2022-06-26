@@ -51,7 +51,7 @@ The transition changes has the following effect on the state. There are 4 states
 
 # Application Screenshot
 
-## Car dealership / Purchase.
+## Car dealership /Purchase.
 
 ![Dealership Registration](./frontend/images/dealership-form.png)
 
